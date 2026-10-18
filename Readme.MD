@@ -45,6 +45,7 @@ A community-maintained Homebridge plugin for controlling Tuya devices locally ov
   * Color<sup>[12](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#white-and-color-light-bulbs)</sup> (Hue, Saturation, Adaptive Lighting)
 * Oil Diffusers<sup>[13](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md)</sup>
 * Outlets<sup>[14](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#outlets)</sup>
+* [Presence Sensor (ZY-M100)](wiki/Occupancy-Sensors.md) (occupancy and ambient light)
 * Switches<sup>[15](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#switch)</sup>
 * Vertical Blinds<sup>[16](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#vertical-blinds-with-tilt)</sup>
 
@@ -101,6 +102,8 @@ install above for production.
 If you have new accessory logic for a new device, please add a function defined by manufacturer, and describe your changes in the readME file. 
 
 ## Credits
+
+* [Eliran Sapir](https://github.com/sapireli) - ZY-M100 occupancy and ambient light sensor support, ported from [homebridge-tuya-local](https://github.com/sapireli/homebridge-tuya-local/commit/08e223b2f4ecfe80031ee5a4b16393a88fdd0b5b).
 
 * [iRayanKhan](https://github.com/iRayanKhan) - developer of the original [homebridge-tuya](https://github.com/iRayanKhan/homebridge-tuya) plugin. 
 * [AMoo-Miki](https://github.com/AMoo-Miki) - developer of the [Tuya-Lan](https://github.com/AMoo-Miki/homebridge-tuya-lan) plugin which this plugin is based off. 
