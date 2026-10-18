@@ -103,7 +103,7 @@ If you have new accessory logic for a new device, please add a function defined 
 
 ## Credits
 
-* [Eliran Sapir](https://github.com/sapireli) - ZY-M100 occupancy and ambient light sensor support, ported from [homebridge-tuya-local](https://github.com/sapireli/homebridge-tuya-local/commit/08e223b2f4ecfe80031ee5a4b16393a88fdd0b5b).
+* [Eliran Sapir](https://github.com/sapireli) - ZY-M100 occupancy and ambient light support ([original implementation](https://github.com/sapireli/homebridge-tuya-local/commit/08e223b2f4ecfe80031ee5a4b16393a88fdd0b5b)), and the contact, smoke, and leak sensor port with battery support and regression tests.
 
 * [iRayanKhan](https://github.com/iRayanKhan) - developer of the original [homebridge-tuya](https://github.com/iRayanKhan/homebridge-tuya) plugin. 
 * [AMoo-Miki](https://github.com/AMoo-Miki) - developer of the [Tuya-Lan](https://github.com/AMoo-Miki/homebridge-tuya-lan) plugin which this plugin is based off. 
