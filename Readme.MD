@@ -46,6 +46,7 @@ A community-maintained Homebridge plugin for controlling Tuya devices locally ov
 * Oil Diffusers<sup>[13](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md)</sup>
 * Outlets<sup>[14](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#outlets)</sup>
 * Switches<sup>[15](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#switch)</sup>
+* [Contact, Smoke, and Leak Sensors](wiki/Cloud-Sensors.md) (including cloud-only devices)
 * Vertical Blinds<sup>[16](https://github.com/adrianjagielak/homebridge-tuya-plus/blob/main/wiki/Supported-Device-Types.md#vertical-blinds-with-tilt)</sup>
 
 ## Cloud fallback
@@ -101,6 +102,9 @@ install above for production.
 If you have new accessory logic for a new device, please add a function defined by manufacturer, and describe your changes in the readME file. 
 
 ## Credits
+
+* [0x5e](https://github.com/0x5e) and the [Tuya Homebridge contributors](https://github.com/0x5e/homebridge-tuya-platform) - contact, smoke, leak, and battery mappings, adapted under the MIT license. See [third-party notices](THIRD_PARTY_NOTICES.md).
+* [Eliran Sapir](https://github.com/sapireli) - ZY-M100 occupancy and ambient light support ([original implementation](https://github.com/sapireli/homebridge-tuya-local/commit/08e223b2f4ecfe80031ee5a4b16393a88fdd0b5b)), and the contact, smoke, and leak sensor port with battery support and regression tests.
 
 * [iRayanKhan](https://github.com/iRayanKhan) - developer of the original [homebridge-tuya](https://github.com/iRayanKhan/homebridge-tuya) plugin. 
 * [AMoo-Miki](https://github.com/AMoo-Miki) - developer of the [Tuya-Lan](https://github.com/AMoo-Miki/homebridge-tuya-lan) plugin which this plugin is based off. 
