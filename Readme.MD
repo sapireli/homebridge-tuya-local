@@ -103,7 +103,6 @@ If you have new accessory logic for a new device, please add a function defined 
 
 ## Credits
 
-* [0x5e](https://github.com/0x5e) and the [Tuya Homebridge contributors](https://github.com/0x5e/homebridge-tuya-platform) - contact, smoke, leak, and battery mappings, adapted under the MIT license. See [third-party notices](THIRD_PARTY_NOTICES.md).
 * [Eliran Sapir](https://github.com/sapireli) - ZY-M100 occupancy and ambient light support ([original implementation](https://github.com/sapireli/homebridge-tuya-local/commit/08e223b2f4ecfe80031ee5a4b16393a88fdd0b5b)), and the contact, smoke, and leak sensor port with battery support and regression tests.
 
 * [iRayanKhan](https://github.com/iRayanKhan) - developer of the original [homebridge-tuya](https://github.com/iRayanKhan/homebridge-tuya) plugin. 
@@ -111,6 +110,7 @@ If you have new accessory logic for a new device, please add a function defined 
 * mxDanger - Plugin branding.
 * [CodeTheWeb](https://github.com/CodeTheWeb) - developer of [TuyaApi](https://github.com/codetheweb/tuyapi), who gratiously provided this repo's name.
 * [Oznu](https://github.com/oznu) - developer of Homebridge, added ```config.schema.json``` , fixed dependencies, and helped inspire this readME off his [gsh](https://github.com/oznu/homebridge-gsh) plugin.
+* [0x5e](https://github.com/0x5e) and the [Tuya Homebridge contributors](https://github.com/0x5e/homebridge-tuya-platform) - contact, smoke, leak, and battery mappings, adapted under the MIT license. See [third-party notices](THIRD_PARTY_NOTICES.md).
 
 #
 
